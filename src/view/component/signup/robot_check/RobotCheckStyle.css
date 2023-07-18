@@ -1,0 +1,8 @@
+.imageDisplayed{
+    height: 125px;
+    width: 150px;
+    background-color: red;
+}
+.imageGrid{
+    margin: 75px;
+}
