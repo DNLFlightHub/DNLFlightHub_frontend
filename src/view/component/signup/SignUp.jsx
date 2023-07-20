@@ -56,13 +56,21 @@ const SignupForm = () => {
 
     if (emailIsValid && passwordIsValid && termsChecked && notRobotChecked) {
       axios
-        .post("/api/signup", {
+        .post("http://127.0.0.1:8081/customer/signUp", {
           firstName,
           lastName,
           email,
           password,
         })
         .then((response) => {
+          console.log(
+            {
+              firstName,
+              lastName,
+              email,
+              password,
+            }
+          );
           console.log("Server response:", response.data);
         })
         .catch((error) => {
