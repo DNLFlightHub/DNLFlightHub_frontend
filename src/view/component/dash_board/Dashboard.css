@@ -1,0 +1,218 @@
+.first_div{
+    background-color: white ;
+    height: 645px;
+}
+.topDivColor{
+    background-color: rgb(232, 219, 78);
+    width: 100%;
+    margin-bottom: 15px;
+}
+.logo{
+    background-image: url('./images/secondLogo.PNG');
+    height: 75px;
+    width: 80px;
+    border-radius: 6%;
+}
+.topNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 100px;
+}
+.navBar ul{
+    list-style: none;
+    justify-content: space-evenly;
+    width: 500px;
+    display: flex;
+    font-size: 24px;
+}
+.navBar ul li:hover{
+    border-bottom: 2px solid rgb(63, 63, 217);
+}
+.profileImageDiv {
+    height: 32vh;
+    width: 85%;
+    margin: 0px 0 3px 5px;
+    border-radius: 50px;
+}
+.profileImageDiv img{
+    height: 23vh;
+    width: 53%;
+    padding: 8 0 32px 0px;
+    margin: 0 0 0 55px;
+    border-radius: 100px;
+    border: 2px solid rgb(165, 114, 42);
+    background-image: url(/src/view/component/dash_board/images/default\ profile\ image.jpg);
+}
+
+.DashBoardCarryingDiv{
+    display: flex;
+}
+.containerContainingSideRule{
+    display: flex;
+}
+.sideRule{
+    background-color: rgb(122, 111, 111);
+    height: 80vh;
+    width: 8px;
+    margin: 10px 0 0 0      ;
+    border-radius: 7px;
+}
+.leftDashBoardDiv{
+    width: 300px;
+    padding-left: 50px;
+}
+.leftSideButton{
+    height: 42px;
+    width: 17vw;
+    color: black;
+    border: none;
+    border-bottom: 2px solid rgb(76, 76, 220);
+    font-size: 18px;
+    border-radius: 15px;
+    margin: 14px 0 0 15px;
+    font-weight: 550;
+}
+.logoutDivToFlex{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.logoutDivToFlex p{
+    margin: 7px 2px 0px 0;
+}
+.logout{
+    background-image: url('/src/view/component/dash_board/images/logoutImage2.PNG');
+    height: 25px;
+    width: 35px;
+    margin: 6px 10px 0px 0;
+}
+.editProfileToRender{
+    display: flex
+}
+.profileEditform input{
+    width: 100%;
+    height: 7vh;
+    margin-top: 10px;
+    border-radius: 15px ;
+}
+.profileEditform{
+    margin: 12px 0 0 33px;
+}
+.editProfileSideImage{
+    margin: 20px 0 0 30px;
+    height: 78vh;
+    width: 660px;
+    background-image: url('./images/istockphoto-155439315-612x612.jpg');
+}
+.feedBackForm{
+    margin: 50px 0 0 30px;
+}
+.feedBackForm textarea{
+    width: 34vw;
+}
+.feedBackForm input{
+    height: 55px;
+    width: 125px;
+    border-radius: 15px;
+    margin: 25px 0 0 390px;
+}
+span{
+    color:rgb(14, 14, 162);
+    background-color: rgba(233, 171, 56, 0.8);
+    border-radius: 20px;
+    margin-left: 5px;
+}
+.feedBackSessionToRender{
+    display: flex;
+}
+.feedBackSessionSideImage{
+    background-image: url('./images/smilingFacingTheCameraWIthSystem.jpg');
+    margin-left: 38px;
+    height: 56.5vh;
+    width: 550px;
+    margin: 90px 0 0 25px;
+    border: 5px solid #999999;
+    box-shadow: 7px 10px #999885;
+}
+.ChangePassword{
+    border: none;
+    font-size: 16px;
+    color: blue;
+}
+.ChangePassword:hover{
+    color: red;
+    background-color: rgb(40, 36, 36);
+    border-radius: 10px;
+}
+.ChangePassword:after{
+    color: aqua;
+}
+.passwordSubmitButton{
+    height: 35px;
+    width: 100px;
+    font-size: 18px;
+    margin: 17px 0 0 180px;
+    border: none;
+    background-color: lightblue;
+}
+.passwordSubmitButton:hover{
+    background-color: rgb(135, 42, 42);
+    color: wheat
+}
+.password{
+    height: 45px;
+    width: 20vw;
+    margin: 9px 9px 5px 15px;
+    border-radius: 6px;
+}
+.updateButton{
+    height: 35px;
+    width: 100px;
+    border-radius: 15px;
+    font-size: 16px;
+    margin: 17px 0 0 150px;
+    border: none;
+    background-color: rgb(243, 174, 125);
+}
+.updateButton:hover{
+    color: red;
+}
+.topAboutImage{
+    background-image: url("/src/view/component/dash_board/images/istockphoto-155439315-612x612.jpg");
+    height: 90px;
+    width: 90px;
+}
+.aboutTopImageAndText{
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    font-size: 20px;
+}
+.divGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 24px;
+    margin: auto;
+    width: 70vw;
+    margin: 10px 10px 0 30px;
+}
+
+.aboutDisplay{
+    margin: 15px 0  33px 15px;
+    background-color: rgb(76, 76, 220);
+    color: beige;
+    border: 2px solid rgb(37, 37, 104);
+    box-shadow: 3px 8px gray;
+    border-radius: 35px;
+    height: 50vh;
+}
+.aboutDisplay p{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding-top: 35px;
+}
