@@ -40,8 +40,8 @@
 .profileImageDiv img{
     height: 23vh;
     width: 53%;
-    padding: 8 0 32px 0px;
-    margin: 0 0 0 55px;
+    padding: 0 4px 4px 2px;
+    margin: 20px 0 0 55px;
     border-radius: 100px;
     border: 2px solid rgb(165, 114, 42);
     background-image: url(/src/view/component/dash_board/images/default\ profile\ image.jpg);
@@ -108,16 +108,19 @@
     background-image: url('./images/istockphoto-155439315-612x612.jpg');
 }
 .feedBackForm{
-    margin: 50px 0 0 30px;
+    margin: 20px 0 0 30px;
 }
 .feedBackForm textarea{
-    width: 34vw;
+    width: 30vw;
+    border-radius: 25px;
 }
 .feedBackForm input{
     height: 55px;
     width: 125px;
     border-radius: 15px;
-    margin: 25px 0 0 390px;
+    margin: 25px 0 0 300px;
+    box-shadow: 3px 5px rgb(159, 152, 152);
+    font-size: 16px;
 }
 span{
     color:rgb(14, 14, 162);
@@ -130,12 +133,31 @@ span{
 }
 .feedBackSessionSideImage{
     background-image: url('./images/smilingFacingTheCameraWIthSystem.jpg');
-    margin-left: 38px;
-    height: 56.5vh;
-    width: 550px;
-    margin: 90px 0 0 25px;
+    
+    height: 63vh;
+    width: 500px;
+    margin: 60px 0 0 20px;
     border: 5px solid #999999;
-    box-shadow: 7px 10px #999885;
+}
+.airlineReview{
+    font-size: 18px;
+    font-weight: 600;
+}
+.feedBackTextArea{
+    font-size: 18px;
+}
+.passwordChangeSession{
+    display: grid;
+    margin: 30px 0 0 115px;
+    justify-content: center;
+    place-items: center;
+}
+.passwordChangeSession  p{
+    font-size: 18px;
+}
+.passwordChangeSession p span{
+    color: blue;
+    background-color: white ;
 }
 .ChangePassword{
     border: none;
@@ -181,9 +203,10 @@ span{
     color: red;
 }
 .topAboutImage{
-    background-image: url("/src/view/component/dash_board/images/istockphoto-155439315-612x612.jpg");
-    height: 90px;
-    width: 90px;
+    background-image: url("/src/view/component/dash_board/images/blueColouringBrush.PNG");
+    height: 120px;
+    width: 105px;
+    border-radius: 10px;
 }
 .aboutTopImageAndText{
     display: grid;

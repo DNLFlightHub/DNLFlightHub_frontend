@@ -65,9 +65,9 @@ const Dashboard = () => {
             <div className="feedBackForm">
                 <h1>Feed<span>Back</span></h1>
                 <form action=""><p>
-                <label htmlFor="airlineReview">Give us your Feed<span>Back</span></label>
+                <label htmlFor="airlineReview" className="airlineReview">Give us your Feed<span>Back</span></label>
                 </p>
-                <textarea name="airlineReview" id="airlineReview" cols="30" rows="10"></textarea><br/>
+                <textarea className="feedBackTextArea" name="airlineReview" id="airlineReview" cols="30" rows="10"></textarea><br/>
                 <input type="submit" value="Submit"></input>
                 </form>
             </div>
@@ -90,8 +90,8 @@ const Dashboard = () => {
         </div>
     }
     const changePassword = ()=>{
-         return <div>
-                    <p>Change Password?</p>
+         return <div className="passwordChangeSession">
+                    <p>Change Password<span>?</span></p>
                     <input type="password" className="password" placeholder="password"/>
                     <br />
                     <input type="password" className="password" placeholder="confirmPassword"/>
