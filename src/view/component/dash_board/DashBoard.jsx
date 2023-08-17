@@ -9,27 +9,38 @@ const Dashboard = () => {
 
         if (currentDisplay === "EditProfile")
                 return editProfile()
+        else if(currentDisplay === "Contact Us")
+                return contactUs()
         else if(currentDisplay === "FeedBack")
                 return feedBackSession()
         else if(currentDisplay === "About")
                 return about()
         else if(currentDisplay === "ChangePassword")
                 return changePassword()
-        else if(currentDisplay === "LogOut")
+        else if(currentDisplay === "LogOut"){
+            console.log("anger");
                 return logOut()
-    }
-    const logOut = () =>{
-        return <div>
-            <div className="quit">
-            <p>Do you really want to logOut</p>
-            <button>Yes</button> <button>No</button>
-            </div>
-            </div>
-        
+        }
     }
     const handleDisplayChange =(event)=>{
         const value = event.target.value
         setCurrentDisplay(value)
+    }
+    const logOut = () =>{
+        
+        return <div>
+                {/* <div className="quit">
+                    <p>Do you really want to logOut</p>
+                    <button>Yes</button> <button>No</button>
+                </div> */} 
+                <p>hi</p>
+            </div>
+        
+    }
+    const contactUs =()=>{
+        return <div>
+            <p>Hello</p>
+        </div>
     }
     const about= () =>{
         return <div about>

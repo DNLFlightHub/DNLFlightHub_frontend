@@ -239,3 +239,6 @@ span{
     text-align: center;
     padding-top: 35px;
 }
+.quit{
+    place-items: center;
+}
