@@ -27,10 +27,10 @@ const App = () => {
     render='explict'
     onloadCallback={callback}
     /> */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
       {/* <SignupForm /> */}
       {/* <RobotCheck/> */}
-      {/* <LoginForm /> */}
+      <LoginForm />
     </div>
   );
 };

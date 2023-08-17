@@ -20,8 +20,10 @@ const Dashboard = () => {
     }
     const logOut = () =>{
         return <div>
-                <p>Do you really want to logOut</p>
-                <button>Yes</button> <button>No</button>
+            <div className="quit">
+            <p>Do you really want to logOut</p>
+            <button>Yes</button> <button>No</button>
+            </div>
             </div>
         
     }

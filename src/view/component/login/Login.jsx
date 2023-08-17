@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Login.css'
 import axios from "axios";
 
 const LoginForm = () => {
@@ -51,7 +52,8 @@ const LoginForm = () => {
   };
 
   return (
-    <div>
+    <div className="body">
+      <div className="loginDiv">
       <h2>Login Form</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -74,6 +76,7 @@ const LoginForm = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
+    </div>
     </div>
   );
 };

@@ -80,7 +80,8 @@ const SignupForm = () => {
   };
 
   return (
-    <div className="form-box">
+    <div className="body">
+      <div className="form-box">
       <h2>Create Account</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -145,6 +146,7 @@ const SignupForm = () => {
       </div>
       Login
       </form>
+    </div>
     </div>
   );
 };

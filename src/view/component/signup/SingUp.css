@@ -1,8 +1,8 @@
-body {
+.body {
     background-color: blue;
     margin: 0;
     padding: 0;
-  }
+  }  
   
   /* .signup-form-container {
     background-color: white;
@@ -64,10 +64,11 @@ body {
   
   .form-box input {
     padding: 10px;
-    margin-bottom: 10px;
-    width: 100%;
+    margin:  8px 0 15px 0;
+    width: 23rem;
     border: none;
     border-radius: 5px;
+    border: 2px solid grey;
   }
   
   .form-box button {

@@ -1,0 +1,18 @@
+.body {
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+  }  
+.loginDiv{
+    background-color: aliceblue;
+    text-align: center;
+    margin: 150px  ;
+}
+input {
+        padding: 10px;
+        margin:  8px 0 15px 0;
+        width: 23rem;
+        border: none;
+        border-radius: 5px;
+        border: 2px solid grey;
+      }
