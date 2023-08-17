@@ -15,8 +15,16 @@ const Dashboard = () => {
                 return about()
         else if(currentDisplay === "ChangePassword")
                 return changePassword()
+        else if(currentDisplay === "LogOut")
+                return logOut()
     }
-    
+    const logOut = () =>{
+        return <div>
+                <p>Do you really want to logOut</p>
+                <button>Yes</button> <button>No</button>
+            </div>
+        
+    }
     const handleDisplayChange =(event)=>{
         const value = event.target.value
         setCurrentDisplay(value)
