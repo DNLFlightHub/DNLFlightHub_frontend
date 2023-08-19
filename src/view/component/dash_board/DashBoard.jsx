@@ -39,7 +39,10 @@ const Dashboard = () => {
     }
     const contactUs =()=>{
         return <div>
-            <p>Hello</p>
+            <p>You can contact us via our social media handles</p>
+            <div className="socialMediaHandles">
+                <div className="facebookHandle"></div>
+            </div>
         </div>
     }
     const about= () =>{
