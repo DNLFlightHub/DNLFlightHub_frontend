@@ -39,10 +39,19 @@ const Dashboard = () => {
     }
     const contactUs =()=>{
         return <div>
-            <p>You can contact us via our social media handles</p>
+                <p>You can contact us via our social media handles</p>
             <div className="socialMediaHandles">
-                <div className="facebookHandle"></div>
+                <div className="contactUsImage">
+                    <div className="contactuslinkdiv">
+                    <div className="contactuslogo"></div><p>face book link</p></div>
+                    <div className="contactuslinkdiv"><div className="contactuslogo"></div><p>intagram link</p></div>
+                    <div className="contactuslinkdiv"><div className="contactuslogo"></div><p>linkedIn link</p></div>
+                    <div className="contactuslinkdiv"><div className="contactuslogo"></div><p>twitter link</p></div>
             </div>
+                    <div className="socialMediaImage"> dtat</div>
+                </div>
+      
+                
         </div>
     }
     const about= () =>{
