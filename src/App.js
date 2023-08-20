@@ -5,6 +5,7 @@ import SignupForm from './view/component/signup/SignUp';
 import Dashboard from './view/component/dash_board/DashBoard';
 
 import LoginForm from './view/component/login/Login';
+import SearchDisplaySection from './view/component/searchDisplaySection/searchDisplaySection';
 // import RobotCheck from './view/component/signup/robot_check/RobotCheck';
 
 
@@ -27,7 +28,8 @@ const App = () => {
     render='explict'
     onloadCallback={callback}
     /> */}
-      <Dashboard/>
+      {/* <Dashboard/> */}
+      <SearchDisplaySection/>
       {/* <SignupForm /> */}
       {/* <RobotCheck/> */}
       {/* <LoginForm /> */}

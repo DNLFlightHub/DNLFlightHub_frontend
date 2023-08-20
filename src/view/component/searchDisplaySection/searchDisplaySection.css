@@ -1,0 +1,11 @@
+ :root{
+     --thistle: #DDA0DD;
+     --light-purple: #CBB4E3;
+}
+.topLayerInnerdiv{
+    display: flex;
+    background-color: var(--thistle);
+}
+.outerContainer{
+    margin: 2em 2em 0 2em ;
+}
